@@ -1,3 +1,6 @@
+![My Badge](mybadge.svg)
+
+
 # 🌐 Aditya's Portfolio
 
 Welcome to my personal portfolio! Here you can explore my projects, skills, and achievements. This portfolio showcases my growth and passion for software development and engineering. It’s built with the latest web technologies to give you a modern and responsive experience.
