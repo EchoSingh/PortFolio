@@ -1,6 +1,4 @@
-![My Badge](mybadge.svg)
-
-
+![Static Badge](https://img.shields.io/badge/Created_By-Aditya_Singh-blue?style=plastic&logo=GitHub&link=https%3A%2F%2Fgithub.com%2FEchoSingh)
 # 🌐 Aditya's Portfolio
 
 Welcome to my personal portfolio! Here you can explore my projects, skills, and achievements. This portfolio showcases my growth and passion for software development and engineering. It’s built with the latest web technologies to give you a modern and responsive experience.
@@ -11,7 +9,6 @@ Welcome to my personal portfolio! Here you can explore my projects, skills, and 
 - Project details and links to live demos.
 
 ### ⚙️ Technologies Used
-- **HTML5** & **CSS3**
 - **Tailwind CSS**
 - **TypeScript**
 - **Vite**
