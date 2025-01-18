@@ -1,5 +1,4 @@
-import { FaLinkedin, FaGithub, FaTwitter, FaDiscord, FaYoutube } from 'react-icons/fa';
-import { FaBluesky } from "react-icons/fa6";
+import { FaLinkedin, FaGithub, FaTwitter, FaDiscord, FaYoutube, FaBluesky } from 'react-icons/fa6';
 import { SiHuggingface } from "react-icons/si";
 const socialLinks = [
   {
