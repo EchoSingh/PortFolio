@@ -38,7 +38,6 @@ This will start the development server, and you can view the portfolio in your b
 
 ### 📄 License
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
-
 ---
 
 Thank you for visiting my portfolio! 🚀
