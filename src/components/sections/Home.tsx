@@ -59,7 +59,11 @@ export default function Home() {
               Let's Collaborate
             </ActionButton>
             <ActionButton
+<<<<<<< HEAD
               href="https://drive.google.com/file/d/1dWmfSwd9uq8Uq-BmHeV5_J9jU72v2Yg5/view?usp=sharing"
+=======
+              href="https://drive.google.com/file/d/1YsebsnGadLIjPFVgWLITMd3Zy6UD0Am-/view?usp=drive_link"
+>>>>>>> 8ea03e17374f3d8596581c86a15282c374780dfe
               variant="green"
               download
               aria-label="Download CV"
