@@ -59,7 +59,7 @@ export default function Home() {
               Let's Collaborate
             </ActionButton>
             <ActionButton
-              href="https://drive.google.com/file/d/1vfrf5piPMaPgbETT5-gwgMXQszHmIbrW/view?usp=sharing"
+              href="https://drive.google.com/file/d/1dWmfSwd9uq8Uq-BmHeV5_J9jU72v2Yg5/view?usp=sharing"
               variant="green"
               download
               aria-label="Download CV"
@@ -78,7 +78,7 @@ export default function Home() {
               : 'bg-gradient-to-r from-navy-400 via-navy-500 to-navy-600'}`}></div>
             <div className="relative rounded-full overflow-hidden transform hover:scale-105 transition-transform duration-300">
               <img
-                src="https://media.licdn.com/dms/image/v2/D5603AQGOp02v7uOUig/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1689583327027?e=1742428800&v=beta&t=dMceuWQk0WUkRUSO5tbLEtC8M290BnlXbQUjy1lMH-A"
+                src="https://media.licdn.com/dms/image/v2/D5603AQGOp02v7uOUig/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1689583327027?e=1748476800&v=beta&t=fEewq_fshaviaYj8LCvX1YiPZGSIyiAP4actmwfR4vQ"
                 alt="Aditya Singh"
                 className="w-64 h-64 object-cover"
               />
