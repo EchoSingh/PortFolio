@@ -21,8 +21,6 @@ export default function Home() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-
-
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center px-4 py-20">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
@@ -59,11 +57,7 @@ export default function Home() {
               Let's Collaborate
             </ActionButton>
             <ActionButton
-<<<<<<< HEAD
               href="https://drive.google.com/file/d/1dWmfSwd9uq8Uq-BmHeV5_J9jU72v2Yg5/view?usp=sharing"
-=======
-              href="https://drive.google.com/file/d/1YsebsnGadLIjPFVgWLITMd3Zy6UD0Am-/view?usp=drive_link"
->>>>>>> 8ea03e17374f3d8596581c86a15282c374780dfe
               variant="green"
               download
               aria-label="Download CV"
