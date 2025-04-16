@@ -7,11 +7,11 @@ export const certifications = [
     url: "https://github.com/EchoSingh/resume/blob/main/data/HackRefine.pdf"
   },
   {
-    id: 2,
-    name: "Aventus 2.0 National-Level Hackathon",
-    issuer: "Dayananda Sagar College of Engineering, Department of Artificial Intelligence and Machine Learning",
-    date: "18th–19th May, 2024",
-    url: "https://github.com/EchoSingh/resume/blob/main/data/Aventus-2.0_Aditya%20Singh.pdf"
+    "id": 3,
+    "name": "Data Mining",
+    "issuer": "NPTEL (Funded by the MoE, Govt. of India), IIT Kharagpur",
+    "date": "Jan–Mar 2025",
+    "url": "https://drive.google.com/file/d/1EAdp5dIQZKCcfYnakiDKGdt8MWC8gYyF/view?usp=sharing"
   },
   {
     id: 3,
