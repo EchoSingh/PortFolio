@@ -6,11 +6,15 @@ const competitivePlatforms = [
     name: "Kaggle",
     link: "https://www.kaggle.com/adi2606",
     icon: "https://img.icons8.com/?size=100&id=bMncK0wGFANA&format=png&color=000000",
-    badge: "Badge Contributor",
-    status: "Ongoing",
-    contest: "Predict Podcast Listening Time — Playground Series S5E4",
-    globalRank: "Global Rank: 412",
-    details: "Contributing cutting-edge machine learning solutions in time-series forecasting.",
+    badge: "Datasets, Notebooks & Discussions Expert",
+    status: "Ongoing Contributor",
+    contest: "Pinned: Face Aging using Conditional GAN, DeepFake-PRNU, News Summarizer",
+    globalRank: "Rank Highlights:",
+    details: `• Datasets Rank: 728 / 14,445 (Highest: 679)
+• Notebooks Rank: 1,321 / 56,858
+• Discussions Rank: 1,037 / 27,874 (Highest: 1,025)
+• Medals: 6 (Datasets), 11 (Notebooks), 51 (Discussions)
+Actively contributing machine learning solutions and curated data assets.`,
   },
   {
     name: "LeetCode",
@@ -91,7 +95,7 @@ export default function About() {
                     {platform.contestRank && <p>{platform.contestRank}</p>}
                     {platform.badge && <p><em>{platform.badge}</em></p>}
                     {platform.status && <p className="italic text-sm">{platform.status}</p>}
-                    {platform.details && <p>{platform.details}</p>}
+                    {platform.details && <p className="whitespace-pre-line">{platform.details}</p>}
                   </div>
                 </div>
               ))}
