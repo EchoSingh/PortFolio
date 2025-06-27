@@ -7,13 +7,14 @@ const kaggleProfile = {
   icon: "https://img.icons8.com/?size=100&id=bMncK0wGFANA&format=png&color=000000",
   badge: "Datasets, Notebooks & Discussions Expert",
   status: "Ongoing Contributor",
-  contest: "Pinned: Face Aging using Conditional GAN, DeepFake-PRNU, News Summarizer",
-  globalRank: "Rank Highlights:",
-  details: `• Datasets Rank: 728 / 14,445 (Highest: 679)
+  contest: "Pinned Projects: Face Aging via Conditional GAN, DeepFake-PRNU Detector, News Article Summarizer",
+  globalRank: "Performance Snapshot:",
+  details: `• Datasets Rank: 728 / 14,445 (Peak: 679)
 • Notebooks Rank: 1,321 / 56,858
-• Discussions Rank: 1,037 / 27,874 (Highest: 1,025)
-• Medals: 6 (Datasets), 11 (Notebooks), 51 (Discussions)
-Actively contributing machine learning solutions and curated data assets.`,
+• Discussions Rank: 1,037 / 27,874 (Peak: 1,025)
+• Total Medals: 🥇6 (Datasets), 🥈11 (Notebooks), 🏅51 (Discussions)
+
+Constantly pushing boundaries in AI through impactful projects, curated datasets, and meaningful community engagement.`,
 };
 
 export default function About() {
@@ -28,7 +29,7 @@ export default function About() {
     <section id="about" className="py-20 px-4">
       <div className="max-w-5xl mx-auto">
         <h2 className={`text-4xl font-extrabold mb-10 ${highlightColor}`}>
-          Get to Know Me
+          Meet the Mind Behind the Code
         </h2>
 
         <div className="space-y-10">
@@ -37,9 +38,9 @@ export default function About() {
           <div className="flex items-start space-x-4">
             <Book className={`w-6 h-6 mt-1 ${highlightColor}`} />
             <div>
-              <h3 className={`text-2xl font-semibold mb-1 ${textColor}`}>Academic Background</h3>
+              <h3 className={`text-2xl font-semibold mb-1 ${textColor}`}>Academic Foundations</h3>
               <p className={textColor}>Dayananda Sagar College of Engineering</p>
-              <p className={subTextColor}>B.E in Information Science (VTU)</p>
+              <p className={subTextColor}>Bachelor of Engineering in Information Science (VTU)</p>
               <p className={subTextColor}>SGPA: 9.5</p>
               <p className={subTextColor}>Bengaluru, India | 2022 – 2026</p>
             </div>
@@ -49,15 +50,15 @@ export default function About() {
           <div className="flex items-start space-x-4">
             <Globe className={`w-6 h-6 mt-1 ${highlightColor}`} />
             <div>
-              <h3 className={`text-2xl font-semibold mb-1 ${textColor}`}>Languages Spoken</h3>
+              <h3 className={`text-2xl font-semibold mb-1 ${textColor}`}>Linguistic Fluency</h3>
               <p className={textColor}>English, Hindi</p>
             </div>
           </div>
 
           {/* Kaggle Section */}
           <div>
-            <h3 className={`text-2xl font-semibold mb-6 ${textColor}`}>AI & Data Science Platform</h3>
-            <div className={`rounded-xl border p-6 shadow-md hover:shadow-lg transition ${cardBg}`}>
+            <h3 className={`text-2xl font-semibold mb-6 ${textColor}`}>AI & Data Science Journey</h3>
+            <div className={`rounded-xl border p-6 shadow-md hover:shadow-lg transition duration-300 ease-in-out ${cardBg}`}>
               <div className="flex items-center space-x-3 mb-3">
                 <img src={kaggleProfile.icon} alt={kaggleProfile.name} className="w-8 h-8" />
                 <a
@@ -69,10 +70,10 @@ export default function About() {
                   {kaggleProfile.name}
                 </a>
               </div>
-              <div className={`space-y-1 text-sm ${textColor}`}>
-                <p><strong>Contest:</strong> {kaggleProfile.contest}</p>
+              <div className={`space-y-2 text-sm ${textColor}`}>
+                <p><strong>📌 {kaggleProfile.contest}</strong></p>
                 <p><strong>{kaggleProfile.globalRank}</strong></p>
-                <p><em>{kaggleProfile.badge}</em></p>
+                <p><em>🏅 {kaggleProfile.badge}</em></p>
                 <p className="italic">{kaggleProfile.status}</p>
                 <p className="whitespace-pre-line">{kaggleProfile.details}</p>
               </div>
