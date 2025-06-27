@@ -41,7 +41,7 @@ export default function About() {
               <h3 className={`text-2xl font-semibold mb-1 ${textColor}`}>Academic Foundations</h3>
               <p className={textColor}>Dayananda Sagar College of Engineering</p>
               <p className={subTextColor}>Bachelor of Engineering in Information Science (VTU)</p>
-              <p className={subTextColor}>SGPA: 9.5</p>
+              <p className={subTextColor}>CGPA: 9.29</p>
               <p className={subTextColor}>Bengaluru, India | 2022 – 2026</p>
             </div>
           </div>
