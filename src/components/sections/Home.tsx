@@ -57,7 +57,7 @@ export default function Home() {
               Let's Collaborate
             </ActionButton>
             <ActionButton
-              href="https://github.com/EchoSingh"
+              href="https://echosingh.github.io/adi/resume.pdf"
               variant="green"
               download
               aria-label="Download CV"
