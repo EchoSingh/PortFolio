@@ -76,7 +76,7 @@ export default function Home() {
               : 'bg-gradient-to-r from-navy-400 via-navy-500 to-navy-600'}`}></div>
             <div className="relative rounded-full overflow-hidden transform hover:scale-105 transition-transform duration-300">
               <img
-                src="https://media.licdn.com/dms/image/v2/D4D03AQEGCDZYNhFxsA/profile-displayphoto-crop_800_800/B4DZlfUIsHH0AI-/0/1758240739400?e=1761177600&v=beta&t=iZpTP97jTclo3XwSwrmKb-x0Wp29nfcV4TzlaO3uSpY"
+                src="/ad.png"
                 alt="Aditya Singh"
                 className="w-64 h-64 object-cover"
               />
